@@ -1,0 +1,123 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: #444;
+}
+
+.app-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="checkbox"] {
+  padding: 10px;
+  width: 100%;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+  width: auto;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button.cancel {
+  background-color: #ccc;
+}
+
+button.cancel:hover {
+  background-color: #999;
+}
+
+.roles-container label {
+  margin-right: 10px;
+  font-weight: normal;
+}
+
+/* Tabla */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.table td {
+  background-color: #fff;
+}
+
+.table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.table button {
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.table button.edit {
+  background-color: #28a745;
+}
+
+.table button.edit:hover {
+  background-color: #218838;
+}
+
+.table button.delete {
+  background-color: #dc3545;
+}
+
+.table button.delete:hover {
+  background-color: #c82333;
+}
